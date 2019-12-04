@@ -1,0 +1,9 @@
+main()
+{
+new int lol; lol = 10;
+new int joj; joj = 25;
+new int sum; 
+new string str; str = 'ÑÓÌÌÀ ĞÀÂÍÀ :';
+out str;
+out sum;
+}

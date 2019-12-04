@@ -1,0 +1,18 @@
+Протокол по работе ТИ - Полная ТИ ->
+
+---+----------------------+-----------------+---------------+--------------------+--------------
+ № | инд первой стр в ТЛ  |  идентификатор  |  тип данных   | тип идентификатора |значение
+---+----------------------+-----------------+---------------+--------------------+
+  0|                     6|          mainlol|            int             variable|_DECIMAL 0
+  1|                     6|          mainlol|            int             variable|_DECIMAL 0
+  2|                    10|             LEX1|            int                  lex|_DECIMAL 10
+  3|                    14|          mainjoj|            int             variable|_DECIMAL 0
+  4|                    14|          mainjoj|            int             variable|_DECIMAL 0
+  5|                    18|             LEX2|            int                  lex|_DECIMAL 25
+  6|                    22|          mainsum|            int             variable|_DECIMAL 0
+  7|                    26|          mainstr|         string             variable|[0]
+  8|                    26|          mainstr|         string             variable|[0]
+  9|                    30|             LEX3|         string                  lex|[13]СУММА РАВНА :
+ 10|                    26|          mainstr|         string             variable|[0]
+ 11|                    22|          mainsum|            int             variable|_DECIMAL 0
+---+----------------------+-----------------+---------------+--------------------+-------------------

@@ -1,0 +1,205 @@
+Шаг : Правило             Входная лента                 Стек               
+0   : S->m(){N}           m(){nti;i=l;nti;i=l;nti;n     : S.                  
+0   : SAVESTATE:          1
+0   :                     m(){nti;i=l;nti;i=l;nti;n     : m(){N}.             
+1   :                     (){nti;i=l;nti;i=l;nti;nt     : (){N}.              
+2   :                     ){nti;i=l;nti;i=l;nti;nti     : ){N}.               
+3   :                     {nti;i=l;nti;i=l;nti;nti;     : {N}.                
+4   :                     nti;i=l;nti;i=l;nti;nti;i     : N}.                 
+5   : N->ntfi(F);N        nti;i=l;nti;i=l;nti;nti;i     : N}.                 
+5   : SAVESTATE:          2
+5   :                     nti;i=l;nti;i=l;nti;nti;i     : ntfi(F);N}.         
+6   :                     ti;i=l;nti;i=l;nti;nti;i=     : tfi(F);N}.          
+7   :                     i;i=l;nti;i=l;nti;nti;i=l     : fi(F);N}.           
+8   : TS_NOK/NS_NORULECHAIN
+8   : RESSTATE            
+8   :                     nti;i=l;nti;i=l;nti;nti;i     : N}.                 
+9   : N->ntfi(F);         nti;i=l;nti;i=l;nti;nti;i     : N}.                 
+9   : SAVESTATE:          2
+9   :                     nti;i=l;nti;i=l;nti;nti;i     : ntfi(F);}.          
+10  :                     ti;i=l;nti;i=l;nti;nti;i=     : tfi(F);}.           
+11  :                     i;i=l;nti;i=l;nti;nti;i=l     : fi(F);}.            
+12  : TS_NOK/NS_NORULECHAIN
+12  : RESSTATE            
+12  :                     nti;i=l;nti;i=l;nti;nti;i     : N}.                 
+13  : N->nti;N            nti;i=l;nti;i=l;nti;nti;i     : N}.                 
+13  : SAVESTATE:          2
+13  :                     nti;i=l;nti;i=l;nti;nti;i     : nti;N}.             
+14  :                     ti;i=l;nti;i=l;nti;nti;i=     : ti;N}.              
+15  :                     i;i=l;nti;i=l;nti;nti;i=l     : i;N}.               
+16  :                     ;i=l;nti;i=l;nti;nti;i=l;     : ;N}.                
+17  :                     i=l;nti;i=l;nti;nti;i=l;o     : N}.                 
+18  : N->i=E;N            i=l;nti;i=l;nti;nti;i=l;o     : N}.                 
+18  : SAVESTATE:          3
+18  :                     i=l;nti;i=l;nti;nti;i=l;o     : i=E;N}.             
+19  :                     =l;nti;i=l;nti;nti;i=l;oi     : =E;N}.              
+20  :                     l;nti;i=l;nti;nti;i=l;oi;     : E;N}.               
+21  : E->l                l;nti;i=l;nti;nti;i=l;oi;     : E;N}.               
+21  : SAVESTATE:          4
+21  :                     l;nti;i=l;nti;nti;i=l;oi;     : l;N}.               
+22  :                     ;nti;i=l;nti;nti;i=l;oi;o     : ;N}.                
+23  :                     nti;i=l;nti;nti;i=l;oi;oi     : N}.                 
+24  : N->ntfi(F);N        nti;i=l;nti;nti;i=l;oi;oi     : N}.                 
+24  : SAVESTATE:          5
+24  :                     nti;i=l;nti;nti;i=l;oi;oi     : ntfi(F);N}.         
+25  :                     ti;i=l;nti;nti;i=l;oi;oi;     : tfi(F);N}.          
+26  :                     i;i=l;nti;nti;i=l;oi;oi;}     : fi(F);N}.           
+27  : TS_NOK/NS_NORULECHAIN
+27  : RESSTATE            
+27  :                     nti;i=l;nti;nti;i=l;oi;oi     : N}.                 
+28  : N->ntfi(F);         nti;i=l;nti;nti;i=l;oi;oi     : N}.                 
+28  : SAVESTATE:          5
+28  :                     nti;i=l;nti;nti;i=l;oi;oi     : ntfi(F);}.          
+29  :                     ti;i=l;nti;nti;i=l;oi;oi;     : tfi(F);}.           
+30  :                     i;i=l;nti;nti;i=l;oi;oi;}     : fi(F);}.            
+31  : TS_NOK/NS_NORULECHAIN
+31  : RESSTATE            
+31  :                     nti;i=l;nti;nti;i=l;oi;oi     : N}.                 
+32  : N->nti;N            nti;i=l;nti;nti;i=l;oi;oi     : N}.                 
+32  : SAVESTATE:          5
+32  :                     nti;i=l;nti;nti;i=l;oi;oi     : nti;N}.             
+33  :                     ti;i=l;nti;nti;i=l;oi;oi;     : ti;N}.              
+34  :                     i;i=l;nti;nti;i=l;oi;oi;}     : i;N}.               
+35  :                     ;i=l;nti;nti;i=l;oi;oi;}.     : ;N}.                
+36  :                     i=l;nti;nti;i=l;oi;oi;}.      : N}.                 
+37  : N->i=E;N            i=l;nti;nti;i=l;oi;oi;}.      : N}.                 
+37  : SAVESTATE:          6
+37  :                     i=l;nti;nti;i=l;oi;oi;}.      : i=E;N}.             
+38  :                     =l;nti;nti;i=l;oi;oi;}.       : =E;N}.              
+39  :                     l;nti;nti;i=l;oi;oi;}.        : E;N}.               
+40  : E->l                l;nti;nti;i=l;oi;oi;}.        : E;N}.               
+40  : SAVESTATE:          7
+40  :                     l;nti;nti;i=l;oi;oi;}.        : l;N}.               
+41  :                     ;nti;nti;i=l;oi;oi;}.         : ;N}.                
+42  :                     nti;nti;i=l;oi;oi;}.          : N}.                 
+43  : N->ntfi(F);N        nti;nti;i=l;oi;oi;}.          : N}.                 
+43  : SAVESTATE:          8
+43  :                     nti;nti;i=l;oi;oi;}.          : ntfi(F);N}.         
+44  :                     ti;nti;i=l;oi;oi;}.           : tfi(F);N}.          
+45  :                     i;nti;i=l;oi;oi;}.            : fi(F);N}.           
+46  : TS_NOK/NS_NORULECHAIN
+46  : RESSTATE            
+46  :                     nti;nti;i=l;oi;oi;}.          : N}.                 
+47  : N->ntfi(F);         nti;nti;i=l;oi;oi;}.          : N}.                 
+47  : SAVESTATE:          8
+47  :                     nti;nti;i=l;oi;oi;}.          : ntfi(F);}.          
+48  :                     ti;nti;i=l;oi;oi;}.           : tfi(F);}.           
+49  :                     i;nti;i=l;oi;oi;}.            : fi(F);}.            
+50  : TS_NOK/NS_NORULECHAIN
+50  : RESSTATE            
+50  :                     nti;nti;i=l;oi;oi;}.          : N}.                 
+51  : N->nti;N            nti;nti;i=l;oi;oi;}.          : N}.                 
+51  : SAVESTATE:          8
+51  :                     nti;nti;i=l;oi;oi;}.          : nti;N}.             
+52  :                     ti;nti;i=l;oi;oi;}.           : ti;N}.              
+53  :                     i;nti;i=l;oi;oi;}.            : i;N}.               
+54  :                     ;nti;i=l;oi;oi;}.             : ;N}.                
+55  :                     nti;i=l;oi;oi;}.              : N}.                 
+56  : N->ntfi(F);N        nti;i=l;oi;oi;}.              : N}.                 
+56  : SAVESTATE:          9
+56  :                     nti;i=l;oi;oi;}.              : ntfi(F);N}.         
+57  :                     ti;i=l;oi;oi;}.               : tfi(F);N}.          
+58  :                     i;i=l;oi;oi;}.                : fi(F);N}.           
+59  : TS_NOK/NS_NORULECHAIN
+59  : RESSTATE            
+59  :                     nti;i=l;oi;oi;}.              : N}.                 
+60  : N->ntfi(F);         nti;i=l;oi;oi;}.              : N}.                 
+60  : SAVESTATE:          9
+60  :                     nti;i=l;oi;oi;}.              : ntfi(F);}.          
+61  :                     ti;i=l;oi;oi;}.               : tfi(F);}.           
+62  :                     i;i=l;oi;oi;}.                : fi(F);}.            
+63  : TS_NOK/NS_NORULECHAIN
+63  : RESSTATE            
+63  :                     nti;i=l;oi;oi;}.              : N}.                 
+64  : N->nti;N            nti;i=l;oi;oi;}.              : N}.                 
+64  : SAVESTATE:          9
+64  :                     nti;i=l;oi;oi;}.              : nti;N}.             
+65  :                     ti;i=l;oi;oi;}.               : ti;N}.              
+66  :                     i;i=l;oi;oi;}.                : i;N}.               
+67  :                     ;i=l;oi;oi;}.                 : ;N}.                
+68  :                     i=l;oi;oi;}.                  : N}.                 
+69  : N->i=E;N            i=l;oi;oi;}.                  : N}.                 
+69  : SAVESTATE:          10
+69  :                     i=l;oi;oi;}.                  : i=E;N}.             
+70  :                     =l;oi;oi;}.                   : =E;N}.              
+71  :                     l;oi;oi;}.                    : E;N}.               
+72  : E->l                l;oi;oi;}.                    : E;N}.               
+72  : SAVESTATE:          11
+72  :                     l;oi;oi;}.                    : l;N}.               
+73  :                     ;oi;oi;}.                     : ;N}.                
+74  :                     oi;oi;}.                      : N}.                 
+75  : N->oE;N             oi;oi;}.                      : N}.                 
+75  : SAVESTATE:          12
+75  :                     oi;oi;}.                      : oE;N}.              
+76  :                     i;oi;}.                       : E;N}.               
+77  : E->i                i;oi;}.                       : E;N}.               
+77  : SAVESTATE:          13
+77  :                     i;oi;}.                       : i;N}.               
+78  :                     ;oi;}.                        : ;N}.                
+79  :                     oi;}.                         : N}.                 
+80  : N->oE;N             oi;}.                         : N}.                 
+80  : SAVESTATE:          14
+80  :                     oi;}.                         : oE;N}.              
+81  :                     i;}.                          : E;N}.               
+82  : E->i                i;}.                          : E;N}.               
+82  : SAVESTATE:          15
+82  :                     i;}.                          : i;N}.               
+83  :                     ;}.                           : ;N}.                
+84  :                     }.                            : N}.                 
+85  : TNS_NORULECHAIN/NS_NORULE
+85  : RESSTATE            
+85  :                     i;}.                          : E;N}.               
+86  : E->i(W)             i;}.                          : E;N}.               
+86  : SAVESTATE:          15
+86  :                     i;}.                          : i(W);N}.            
+87  :                     ;}.                           : (W);N}.             
+88  : TS_NOK/NS_NORULECHAIN
+88  : RESSTATE            
+88  :                     i;}.                          : E;N}.               
+89  : E->iM               i;}.                          : E;N}.               
+89  : SAVESTATE:          15
+89  :                     i;}.                          : iM;N}.              
+90  :                     ;}.                           : M;N}.               
+91  : TNS_NORULECHAIN/NS_NORULE
+91  : RESSTATE            
+91  :                     i;}.                          : E;N}.               
+92  : E->i(W)M            i;}.                          : E;N}.               
+92  : SAVESTATE:          15
+92  :                     i;}.                          : i(W)M;N}.           
+93  :                     ;}.                           : (W)M;N}.            
+94  : TS_NOK/NS_NORULECHAIN
+94  : RESSTATE            
+94  :                     i;}.                          : E;N}.               
+95  : TNS_NORULECHAIN/NS_NORULE
+95  : RESSTATE            
+95  :                     oi;}.                         : N}.                 
+96  : N->oE;              oi;}.                         : N}.                 
+96  : SAVESTATE:          14
+96  :                     oi;}.                         : oE;}.               
+97  :                     i;}.                          : E;}.                
+98  : E->i                i;}.                          : E;}.                
+98  : SAVESTATE:          15
+98  :                     i;}.                          : i;}.                
+99  :                     ;}.                           : ;}.                 
+100 :                     }.                            : }.                  
+101 :                     .                             : .                   
+102 :                                                   :                     
+103 : LENTA_END           
+104 : ------->LENTA_END   
+---------------------------------------------------------------  ----
+0   : всего строк 40, синтаксический анализ выполнен без ошибок
+0   : S->m(){N}           
+4   : N->nti;N            
+8   : N->i=E;N            
+10  : E->l                
+12  : N->nti;N            
+16  : N->i=E;N            
+18  : E->l                
+20  : N->nti;N            
+24  : N->nti;N            
+28  : N->i=E;N            
+30  : E->l                
+32  : N->oE;N             
+33  : E->i                
+35  : N->oE;              
+36  : E->i                
